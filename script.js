@@ -17,7 +17,7 @@ function compute()
 
     var result = document.getElementById('result')
 
-    result.innerHTML = `If you deposit ${getHighlighter(principal)},\<br>at an interest rate of ${getHighlighter(rate.toString() + '%')}.\<br>You will recieve an amount of ${getHighlighter(parseFloat(interest))},\<br>in the year ${getHighlighter(year)}`
+    result.innerHTML = `If you deposit ${getHighlighter(principal)},\<br>at an interest rate of ${getHighlighter(rate.toString() + '%')}.\<br>You will recieve an additional amount of ${getHighlighter(parseFloat(interest))},\<br>in the year ${getHighlighter(year)}`
 }
         
 function updateRate(){
